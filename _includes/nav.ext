@@ -1,10 +1,9 @@
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 <nav>
   <ul>
-  	<li><a href="http://events.codeweek.eu/">Events</a></li>
-    <li><a {% if location == 'resources' %}class="active" {% endif %}href="/resources/">Resources</a></li>
-    <li><a {% if location == 'code' %}class="active" {% endif %}href="/code/">Why coding?</a></li>
-    <li><a {% if location == 'about' %}class="active" {% endif %}href="/about/">About</a></li>
-    <li><a href="http://blog.codeweek.eu/">News</a></li>
+  	<li><a {% if location == 'dogodki' %}class="active" {% endif %}href="/dogodki/">Dogodki</a></li>
+    <li><a {% if location == 'gradiva' %}class="active" {% endif %}href="/gradiva/">Gradiva</a></li>
+    <li><a {% if location == 'zakaj_programiranje' %}class="active" {% endif %}href="/zakaj_programiranje/">Zakaj programiranje?</a></li>
+    <li><a {% if location == 'o_tednu_programiranja' %}class="active" {% endif %}href="/o_tednu_programiranja/">O tednu programiranja</a></li>
   </ul>
 </nav>

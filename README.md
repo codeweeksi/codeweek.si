@@ -1,11 +1,5 @@
-# Europe Code Week website
+# CodeWeek EU 2015 - Slovenian localized site codeweek.si 
 
-The website was created with [jekyll](http://jekyllrb.com/). To contribute, Fork the repository on GitHub by clicking the "Fork" button.
+This website is based on [Codeweek.eu codebase](https://github.com/codeeu/codeeu.github.io) 
 
-Once you have a copy of the repository under your account, clone it to your computer, then install jekyll (see website for help).
-
-To run jekyll and generate new pages, use
-
-	jekyll serve
-
-Test the changes locally, then push to your GitHub repo and send a Pull Request for review.
+The website was created with [jekyll](http://jekyllrb.com/)
