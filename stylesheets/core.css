@@ -76,6 +76,10 @@ a.button:active {
   box-shadow: none;
 }
 
+hr {
+  color: #4489ca;
+}
+
 section {
   font-size: 18px;
   line-height: 28px;
