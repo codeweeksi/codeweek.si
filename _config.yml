@@ -15,3 +15,11 @@ country-list: [austria, belgium, bulgaria, croatia, cyprus, czech_republic, denm
 
 description: A week to celebrate coding in Europe - Local site of Slovenia
 url: http://codeweek.si
+
+defaults:
+  -
+    scope: 
+      path: "" # all files in the project
+    values:
+      event_dates: "7.‐22. oktober 2017"
+      event_year: "2017"
