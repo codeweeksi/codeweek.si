@@ -1,0 +1,22 @@
+---
+layout: subpage
+title: Podporniki
+permalink: podporniki/
+---
+
+<section>
+
+
+<ul>
+{% for member in site.data.podporniki %}
+  <li>
+    <a href="{{ member.url }}">
+      <h2>{{ member.name }}</h2>
+      <img src="{{ member.image }}">
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+	
+</section>

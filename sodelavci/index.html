@@ -1,0 +1,31 @@
+---
+layout: subpage
+title: Sodelavci
+permalink: sodelavci/
+---
+
+<section>
+  
+<h2>CodeWeek 2017</h2>
+<ul>
+{% for member in site.data.sodelavci %}
+  <li>
+    <a href="#">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+
+<h2>A blast from the past</h2>
+<ul>
+{% for member in site.data.ostali %}
+  <li>
+    <a href="#">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+</section>
