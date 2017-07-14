@@ -1,56 +1,188 @@
 <!doctype html>
 <html>
 <head>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Evropski teden programiranja 2015 poteka od 10. do 18. oktobra. Združuje mlade in mlade po srcu, ki se želijo naučiti programirati, in vse, ki jim želimo pri tem pomagati." />
+  <meta property="og:image" content="/assets/assets/img/-old/codeweekEU-logo-600.png" />
+  <title>Evropski teden programiranja | {{ page.title }}</title>
   <style type="text/css">
   @import url('/assets/css/style.css');
   </style>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Evropski teden programiranja 2015 poteka od 10. do 18. oktobra. Združuje mlade in mlade po srcu, ki se želijo naučiti programirati, in vse, ki jim želimo pri tem pomagati." />
-  <meta property="og:image" content="/assets/img-old/codeweekEU-logo-600.png" />
-  <title>Evropski teden programiranja | {{ page.title }}</title>
+  <style type="text/css">
+  @import url('/assets/css/magnific-popup.css');
+  </style>
+  <!-- jQuery -->
+  <script src="/assets/js/jquery/jquery.min.js"></script>
+  <script src="/assets/js/countdown/jquery.plugin.js"></script>
+  <script src="/assets/js/countdown/jquery.countdown.js"></script>
+  <script src="/assets/js/countdown/jquery.countdown-sl.js"></script>
+  <script>
+  $(function () {
+      var codeWeekDay = new Date(2017,9,7);
+      $('#final-countdown').countdown({until: codeWeekDay, format: 'owD', timezone: +2});
+  });
+  </script>
 
 </head>
 
-<body>
+<body id="page-top">
 
-  {{ content }}
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">CodeWeek 2017</a>
+            </div>
 
-  <footer>
-    <div class="inner row">
-      <ul class="links fa-ul col-md-4">
-        <li>
-          <span class="fa-stack fa-sm">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-          </span>
-          <a href="https://twitter.com/codeweekeu" title="@CodeWeekEU on Twitter" target="_blank" class="twitter">CodeWeekEU</a></li>
-        <li>
-          <span class="fa-stack fa-sm">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-          </span>
-          <a href="https://www.facebook.com/codeEU" title="Europe Code Week on Facebook" target="_blank" class="facebook">codeEU</a></li>
-        <li>
-          <span class="fa-stack fa-sm">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-          </span>
-          <a href="https://plus.google.com/+CodeweekEu/" title="Europe Code Week on Google+" target="_blank" class="google">CodeWeekEU</a></li>
-        <li>
-          <span class="fa-stack fa-sm">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-          </span>
-          <a href="https://github.com/codeeu" target="_blank" title="CodeEU on GitHub" class="github">codeeu</a></li>
-      </ul>
-      <div class="team col-md-8">
-        Projekt skupine <a href="http://ec.europa.eu/digital-agenda/en/young-advisors" target="_blank">Young Advisors Group</a> pri <a href="http://ec.europa.eu/index_sl.htm" target="_blank">Evropski komisiji</a>.
-      </div>
-    </div>
-  </footer>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">O nas</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sodelovanje">Sodeluj</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Dogodki</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">CodeWeek 2017 #codeEU</h1>
+                <hr>
+                <div id="final-countdown" class="countdown-large"></div>
+                <p>Teden programiranja, 7.-22. oktober</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">CodeWeek... kaj?</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Programiranje ni bav-bav</h2>
+                    <hr class="light">
+                    <p class="text-faded">Programiranje je ena od najbolj kreativnih dejavnosti in hkrati hvaležno orodje za uresničevanje lastnih ciljev.</p>
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1531646670441706";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+
+                      <div class="fb-video" data-href="https://www.facebook.com/codeweek.si/videos/1941052119464326/" data-width="720" data-show-text="false"><blockquote cite="https://www.facebook.com/codeweek.si/videos/1941052119464326/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/codeweek.si/videos/1941052119464326/">Kdo je programer?</a><p>✨ Programer je lahko vsakdo! - pravi Mateja. ✨ Poleg nje na vprašanje Kdo je programer? odgovarjajo še Alja, Dunja, Jaka in Jure. 🎬 Video je vzpodbuda bodočim programerjem in poziv vsem iz mentorskega testa, ki ste oktobra pripravljeni kakšno uro časa nameniti organizaciji delavnice programiranja za najmlajše. 
+                      📬 Ideje zbiramo in na vprašanja odgovarjamo tukaj ali prek info&#064;codeweek.si.</p>Posted by <a href="https://www.facebook.com/codeweek.si/">Codeweek.si</a> on Tuesday, July 4, 2017</blockquote></div>
+                      
+                      <hr class="light">
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Želim sodelovati!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sodelovanje">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sodeluj!</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Prijavi delavnico</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>Začni programirati</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3>Podpri CodeWeek</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured events --> 
+    {% include featured_events.html %}
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Free Download at Start Bootstrap!</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/assets/js/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/assets/js/scrollreveal/scrollreveal.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="/assets/js/creative.js"></script>
 
 </body>
 </html>

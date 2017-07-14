@@ -1,0 +1,30 @@
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Ne zamudi!</h2>
+            <hr class="primary">
+        </div>
+    </div>
+        <div class="row no-gutter popup-gallery">
+            {% for event in site.featured_events %}
+            <div class="col-lg-4 col-sm-6">
+            <a href="{{ event.event_url }}" target="_blank" class="portfolio-box">
+                <img src="{{ event.image }}" class="img-responsive " alt="">
+                <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                        <div class="project-category text-faded">
+                            Category
+                        </div>
+                        <div class="project-name">
+                            {{ event.title }}
+                            {{ event.content }}
+                        </div>
+                    </div>
+                </div>
+            </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
