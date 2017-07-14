@@ -1,6 +1,37 @@
 ---
 layout: default
 ---
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="{{site.url}}">CodeWeek 2017</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="#about">O nas</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#sodelovanje">Sodeluj</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Dogodki</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
 
 <header>
     <div class="header-content">
@@ -116,29 +147,3 @@ layout: default
     </div>
 </section>
 
-
-<section id="intro">
-  <div class="row inner">
-    <header class="col-md-4">
-      <h1>CodeWeek.si</h1>
-      <h2>Teden programiranja<br />7.&dash;22. oktober 2017<a href="https://twitter.com/search?q=%23codeEU&amp;f=realtime" target="_blank">#codeEU</a></h2>
-    </header>
-
-    {% include nav.ext %}
-
-    <div id="intro-description" class="col-md-8 col-xs-12">
-      <p>Teden programiranja praznuje 5. let! Lani so mentorji na 23.000 delavnicah po vsej Evropi učili programirati 1.000.000 mladih. Letos si lahko z nami tudi ti: na voljo je <a href="http://codeweek.si/gradiva/" target="_blank">gradivo</a> za izvedbo delavnice - tudi za take brez računalnikov in za mentorje, ki se s programiranjem še niste srečali.</p>
-       
-
-      <div class="button-well">
-        <a href="http://codeweek.si/gradiva/" target="_blank" class="button button-find">Gradivo za mentorje</a>
-      </div>
-    </div>
-
-    <ul>
-
-    </ul>
-  </div>
-</section>
-
-{{ content }}
