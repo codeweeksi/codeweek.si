@@ -1,0 +1,31 @@
+{
+  "name": "codeweek.si",
+  "version": "1.0.0",
+  "description": "This website is based on [Codeweek.eu codebase](https://github.com/codeeu/codeeu.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasperkoren/codeweek.si.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gasperkoren/codeweek.si/issues"
+  },
+  "homepage": "https://github.com/gasperkoren/codeweek.si#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-deporder": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "merge-stream": "^1.0.1",
+    "pump": "^1.0.2"
+  }
+}

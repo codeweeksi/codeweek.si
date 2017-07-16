@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+$fa-font-path: "../fonts/font-awesome";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "bootstrap-sass/bootstrap-custom-variables", // Custom variables must load before bootstrap.
+  "bootstrap-sass/bootstrap",
+  "font-awesome/font-awesome",
+  "creative/creative"
+;
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import "../css/magnific-popup";
+
+
+/* ----------------------------------------------------------------
+	Countdown
+-----------------------------------------------------------------*/
+
+.countdown { display: block; }
+
+.countdown-row {
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.countdown-section {
+	display: inline-block;
+	font-size: 11px;
+	line-height: 1;
+	text-align: center;
+	width: 25%;
+	//border-left: 1px dotted #BBB;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.countdown-section:first-child { border-left: 0; }
+
+.countdown-amount {
+	display: block;
+	font-size: 20px;
+	color: #fff;//#333;
+	margin-bottom: 5px;
+}
+
+.countdown-descr {
+	display: block;
+	width: 100%;
+}
+
+
+/* Countdown - Medium
+-----------------------------------------------------------------*/
+
+.countdown-medium .countdown-section { font-size: 14px; }
+
+.countdown-medium .countdown-amount {
+	font-size: 30px;
+	margin-bottom: 7px;
+}
+
+
+/* Countdown - Large
+-----------------------------------------------------------------*/
+
+.countdown-large .countdown-section { font-size: 18px; }
+
+.countdown-large .countdown-amount {
+	font-size: 44px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+
