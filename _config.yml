@@ -2,9 +2,10 @@ name: Europe Code Week
 markdown: kramdown
 highlighter: rouge
 
-sass:
-    sass_dir: _sass
-    style: :compressed
+# Using gulp, no need for sass part here
+# sass:
+#    sass_dir: _sass
+#    style: :compressed
 
 gems: 
   - jekyll-redirect-from
