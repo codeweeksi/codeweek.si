@@ -6,7 +6,6 @@ rvm:
 before_install:
   - npm install
   - pip install --user pillow
-install: gem install jekyll
 script: 
   - "./_scripts/build.sh"
   - gulp
