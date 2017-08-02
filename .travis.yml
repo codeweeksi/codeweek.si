@@ -1,18 +1,19 @@
 language: node_js
-script: "./_scripts/build.sh"
-sudo: required
+node_js:
+  - 'node'
 branches:
   except:
     - master
-node_js:
-  - '6.1'
 before_install:
-  - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
-   - rvm install 2.2.3
-   - rvm use 2.3.3
-   - . $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1
-   - gem install bundler
-   - bundle check || bundle install
+  - rvm install 2.2.3
+before_script:
+  - npm install -g gulp-cli
+  - npm install -g gulp
+  - gem install bundler
+  - bundle install
+script: 
+  - "./_scripts/build.sh"
+  - gulp
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
