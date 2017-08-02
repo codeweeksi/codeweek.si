@@ -1,27 +1,21 @@
-language: node_js
-node_js:
-  - 'node'
-branches:
+language: ruby
+rvm:
+- 2.3.3
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script: ./_script/build.sh
+braches:
   except:
-    - master
-before_install:
-  - rvm install 2.2.3
-before_script:
-  - npm install -g gulp-cli
-  - npm install -g gulp
-  - gem install bundler
-  - bundle check || bundle install --deployment
-script: 
-  - "./_scripts/build.sh"
-  - gulp
+    master
+
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - secure: LFlP4aCs2t74EqxGAfJbiH8bWRI4E1uoeKO011+9c8j3PR2+3Oo99tZgTKxGL/LX0DIboJ5sXu5vV+9xWIdqlf166EXlgk9iHpVQWGGm5MLMWnU89ACYITA250r9IYMQoVpmT0zGlZBnHi07B1LqDlcGdJg2KpEk2n9tcGL7HTaicHDGXIFqk+RAu4FLQ5mxCibQ5XgKIRa8uFwVDphy4ug9+S2LbQ3YuyhtC/GZSuyrpEELRRrY6tJF48iULgl++pTrHLStcxfwnQkuXmfqG0lJXMDNaAZQVIxvhQqWXXLtmhfuoPk20jTC046aRAHLqIH3czaEAb3UXi4XmWVJOyDmbNLVEEP/WmundYjbyYh61UsLhX22IOzprqm/8nbTzARe9G7A30TcBH8l56RfWcNoax7xEA61C0EZucEH+Ko4qbLxNBRsXDMyfqItf6DNKIjZOXkslDcgO80sr3APeddFALHPfAjYV7wrzxT+LaX/8nPeLS9w1Na/qdvB+j+yh6HJQeTTrNqtDN1vvJT2dxela0PbYIWJUOHQcIpjFBT4Hw1Ih9kSwd05hNX8zoX2TYtrRXfiLiT1cciA76qdgGgzii56odzEo1KnkL8oJm0GKjh0xaZxBT4vyDgA4KVVZl+mac84phyloFm+fGmj6TZn6a+QrSRLuwymsqA8DQY=
   - secure: ahWqFaU4PLQqMx3waTO53H9rHn1QRLjmd2lCnjJt19LSWXJiE1i3lT0npvcuqCsdkuybeFEdc15G3o7P8FHBTNWPsA2BJ9sWoQqM5BMYmHviqShB9HNbGx638j7x8ie/kXbwfb9T1E7OXYEtevWptIgMr1n1zDgylIghwXa6LU9BOdLCuFjLab9ZD4OuLJdr60gNsvCRq/z3cTZlaXA7HidOuhBSMrsrCu5kD20XXPTTborEP7PfdkRZFtVfrH2fX5xYjavs/hCrFiNXOUclawxX3yiT6TbHrlD7y/8XAMblQa9j7XS0fB0G2JWooCVt2BEO4NffQWMV9w7MCrNdoGnQE1j2nIPffKE+1OaSJfWSeALrKfx+8/13BhClWf5ECgbJV3+IF9EL0r0RnokybT7zddARdCvvl6gwv92F+4sxQsFtC7ZWLjU28P/SBs8bwcdJdlY73gG4Cb/CavoJla5syna88yhvZktvqAj4XmYV/YmKhMS0XDeJy5cJpWpxR6LTEd99ZDwekzI9xRK/4XfbpFAcbje4KqMXPu/4VSi3r8Fs40J1mqo5QZyU9tjxVpsmaG6//PHG9T7x5QU0A1OBLwIVM/vHLGkoUZarq3wLvNVhFLURFdX3jrevH1/s3fgP9OsAYyv4A6r0pGFxfgmiANg+jZBLVP97RIY6FeY=
-deploy:
-  provider: script
-  script: "./_scripts/deploy.sh"
-  skup_cleanup: false
-  on:
-    branch: source
+#deploy:
+#  provider: script
+#  script: "./_scripts/deploy.sh"
+#  skip_cleanup: false
+#  on:
+#    branch: source
