@@ -3,11 +3,14 @@ rvm:
 - 2.3.3
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: ./_scripts/build.sh
-braches:
+  
+script: 
+- "./_scripts/build.sh"
+- npm install
+- npm install -g gulp
+branches:
   except:
     master
-
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
