@@ -3,11 +3,13 @@ rvm:
 - 2.3.3
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-  
+before_install:
+  - npm install
+  - pip install --user pillow
+install: gem install jekyll
 script: 
-- "./_scripts/build.sh"
-- npm install
-- npm install -g gulp
+  - "./_scripts/build.sh"
+  - gulp
 branches:
   except:
     master
