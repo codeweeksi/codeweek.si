@@ -31,6 +31,7 @@ country-list: [austria, belgium, bulgaria, croatia, cyprus, czech_republic, denm
 description: A week to celebrate coding in Europe - Local site of Slovenia
 url: http://codeweek.si
 
+
 collections:
   - featured_events
 
@@ -39,8 +40,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - bower.json
   - "*.sh"
   - README.md
-  - gulffile.js
+  - gulpfile.js
   - package.json
+  - deploy

@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    @include serif-font;
+    @include sans-serif-font;//serif-font;
 }
 
 hr {
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    @include serif-font;//sans-serif-font;
 }
 
 p {
@@ -52,6 +52,11 @@ p {
 
 .bg-dark {
     background-color: $gray-darker;
+    color: white;
+}
+
+.bg-blue {
+    background-color: $light-blue;
     color: white;
 }
 
@@ -101,7 +106,7 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: #fff;//$gray-darker;
+                color: $gray-darker;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -245,7 +250,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: fade($theme-primary, 90%);
+        background: darken( $light-blue, 10% );
         position: absolute;
         bottom: 0;
         text-align: center;
