@@ -14,8 +14,8 @@ npm install
 gulp
 
 # Checkout `master` and remove everything.
-git clone https://${GH_TOKEN}@github.com/codeweeksi/codeweek.si.git ../codeweeksi.github.io.master
-cd ../codeweeksi.github.io.master
+git clone https://${GH_TOKEN}@github.com/codeweeksi/codeweek.si.git ../codeweeksi.si.master
+cd ../codeweeksi.si.master
 git checkout master
 #rm -rf *
 

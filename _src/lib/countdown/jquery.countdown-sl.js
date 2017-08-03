@@ -5,11 +5,11 @@
 (function($) {
 	'use strict';
 	$.countdown.regionalOptions.sl = {
-		labels: ['Let','Mesecev','Tednov','Dni','Ur','Minut','Sekund'], // Plurals
-		labels1: ['Leto','Mesec','Teden','Dan','Ura','Minuta','Sekunda'], // Singles
-		labels2: ['Leti','Meseca','Tedna','Dneva','Uri','Minuti','Sekundi'], // Doubles
-		labels3: ['Leta','Meseci','Tedni','Dnevi','Ure','Minute','Sekunde'], // 3's
-		labels4: ['Leta','Meseci','Tedni','Dnevi','Ure','Minute','Sekunde'], // 4's
+		labels: ['Let','Mesecev','Tednov','dni','Ur','Minut','Sekund'], // Plurals
+		labels1: ['Leto','Mesec','Teden','dan','Ura','Minuta','Sekunda'], // Singles
+		labels2: ['Leti','Meseca','Tedna','dni','Uri','Minuti','Sekundi'], // Doubles
+		labels3: ['Leta','Meseci','Tedni','dni','Ure','Minute','Sekunde'], // 3's
+		labels4: ['Leta','Meseci','Tedni','dni','Ure','Minute','Sekunde'], // 4's
 		compactLabels: ['l','m','t','d'],
 		whichLabels: function(amount) {
 			return (amount > 4 ? 0 : amount);

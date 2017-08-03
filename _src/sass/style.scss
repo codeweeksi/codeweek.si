@@ -11,68 +11,86 @@ $fa-font-path: "../fonts/font-awesome";
 ;
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,700);
 @import "../css/magnific-popup";
 
 
-/* ----------------------------------------------------------------
-	Countdown
------------------------------------------------------------------*/
 
-.countdown { display: block; }
+/* -------------------------------*/
+/* HOME */
+/* -------------------------------*/
 
-.countdown-row {
-	display: block;
-	position: relative;
+p {
+	font-family: 'Open Sans', serif;
+}
+
+.countdown-wrapper {
+	margin-top: 50px;
+}
+
+#final-countdown, #final-countdown p, .countdown-wrapper {
+	font-family: 'Open sans', serif;
+	font-size: 14px;
 	text-align: center;
 }
 
-.countdown-section {
-	display: inline-block;
-	font-size: 11px;
-	line-height: 1;
-	text-align: center;
-	width: 25%;
-	//border-left: 1px dotted #BBB;
+.circle {
+	background: $theme-primary;
+	border-radius: 100px;
 	color: #fff;
-	text-transform: capitalize;
+	height: 100px;
+	font-weight: bold;
+	width: 100px;
+	display: table;
+	margin: 10px auto;
 }
 
-.countdown-section:first-child { border-left: 0; }
-
-.countdown-amount {
-	display: block;
-	font-size: 20px;
-	color: #fff;//#333;
-	margin-bottom: 5px;
-}
-
-.countdown-descr {
-	display: block;
-	width: 100%;
-}
-
-
-/* Countdown - Medium
------------------------------------------------------------------*/
-
-.countdown-medium .countdown-section { font-size: 14px; }
-
-.countdown-medium .countdown-amount {
+#final-countdown .circle p {
+	vertical-align: middle;
+	display: table-cell;
 	font-size: 30px;
-	margin-bottom: 7px;
 }
 
 
-/* Countdown - Large
------------------------------------------------------------------*/
-
-.countdown-large .countdown-section { font-size: 18px; }
-
-.countdown-large .countdown-amount {
-	font-size: 44px;
-	font-weight: 600;
-	margin-bottom: 8px;
+.home-intro {
+	margin-bottom: 10px;
+	margin-top: 20px;
 }
 
+.home-cta {
+	margin: 50px 0 10px 0;
+}
 
+.home-more-info {
+	margin: 50px 0 10px 0;
+}
+
+#dogodki .section-heading {
+	margin-top: 100px;
+}
+
+.counter {
+	font-size: 20px;
+}
+
+#sodeluj {
+	a {
+		color: #fff;
+		text-decoration: underline;
+		&:hover {
+			color: #000;
+		}
+		&:visited {
+			color: #fff;
+		}
+	}
+}
+
+.service-box p {
+	margin-bottom: 20px;
+}
+
+a .section-link{
+	font-weight: bold;
+	font-size:14px;
+}

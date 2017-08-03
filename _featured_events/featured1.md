@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Featured event 1
-image: /assets/img/portfolio/thumbnails/1.jpg
-event_url: https://www.google.com
-category: workshop
+title: HackElect
+image: /assets/img/events/hackelect.jpg
+event_url: http://events.codeweek.eu/view/36907/hackelect/
+category: hackaton
 ---
 
-Is this the real life? Is this just fantasy?
+International Hackathon »HackElect« related to Power Engineering and Smart Grids, will be held in Ljubljana, Slovenia.

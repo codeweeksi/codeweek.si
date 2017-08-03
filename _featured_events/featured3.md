@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Featured event 3
-image: /assets/img/portfolio/thumbnails/2.jpg
-event_url: https://www.google.com
-category: something
+title: Vaša delavnica ;)
+image: /assets/img/events/default.jpg
+event_url: http://events.codeweek.eu/
+category: delavnica
 ---
 
-Mamma mia!
+Ne postopajte, organizirajte delavnico. 

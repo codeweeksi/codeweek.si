@@ -15,16 +15,19 @@ layout: default
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">O nas</a>
+                    <a class="page-scroll" href="#codeweek">O CodeWeek</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#sodelovanje">Sodeluj</a>
+                    <a class="page-scroll" href="#sodeluj">Sodeluj</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Dogodki</a>
+                    <a class="page-scroll" href="#dogodki">Dogodki</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Kontakt</a>
+                    <a class="page-scroll" href="#kontakt">Kontakt</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#uspehi">Uspehi</a>
                 </li>
             </ul>
         </div>
@@ -36,22 +39,30 @@ layout: default
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1 id="homeHeading">CodeWeek 2017 #codeEU</h1>
+            <h1 id="home">CodeWeek 2017 #codeEU</h1>
             <hr>
-            <div id="final-countdown" class="countdown-large"></div>
-            <p>Teden programiranja, 7.-22. oktober</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">CodeWeek... kaj?</a>
+            <h2>7.-22. oktober</h2>
+                <div class="row countdown-wrapper">
+                    <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
+                    Do tedna programiranja še
+                        <div id="final-countdown"></div>
+                    </div>
+                </div>
+            <div class="home-cta">
+                <a href="#codeweek" class="btn btn-default btn-xl">Kaj je programiranje?</a>
+            </div>
         </div>
     </div>
 </header>
 
-<section class="bg-primary" id="about">
+<section id="codeweek">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Programiranje ni bav-bav</h2>
                 <hr class="light">
-                <p class="text-faded">Programiranje je ena od najbolj kreativnih dejavnosti in hkrati hvaležno orodje za uresničevanje lastnih ciljev.</p>
+                <p>Programiranje je ena od najbolj kreativnih dejavnosti in hkrati hvaležno orodje za uresničevanje lastnih ciljev. <strong>Kdo pa je programer?</strong></p>
+                <p> Programer je lahko vsakdo! - pravi Mateja. Poleg nje na vprašanje Kdo je programer? odgovarjajo še Alja, Dunja, Jaka in Jure. </p>
                 <div id="fb-root"></div>
                 <script>(function(d, s, id) {
                   var js, fjs = d.getElementsByTagName(s)[0];
@@ -61,21 +72,21 @@ layout: default
                   fjs.parentNode.insertBefore(js, fjs);
                 }(document, 'script', 'facebook-jssdk'));</script>
 
-                  <div class="fb-video" data-href="https://www.facebook.com/codeweek.si/videos/1941052119464326/" data-width="720" data-show-text="false"><blockquote cite="https://www.facebook.com/codeweek.si/videos/1941052119464326/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/codeweek.si/videos/1941052119464326/">Kdo je programer?</a><p>✨ Programer je lahko vsakdo! - pravi Mateja. ✨ Poleg nje na vprašanje Kdo je programer? odgovarjajo še Alja, Dunja, Jaka in Jure. 🎬 Video je vzpodbuda bodočim programerjem in poziv vsem iz mentorskega testa, ki ste oktobra pripravljeni kakšno uro časa nameniti organizaciji delavnice programiranja za najmlajše. 
+                  <div class="fb-video" data-href="https://www.facebook.com/codeweek.si/videos/1941052119464326/" data-width="720" data-show-text="false"><blockquote cite="https://www.facebook.com/codeweek.si/videos/1941052119464326/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/codeweek.si/videos/1941052119464326/">Kdo je programer?</a><p>
                   📬 Ideje zbiramo in na vprašanja odgovarjamo tukaj ali prek info&#064;codeweek.si.</p>Posted by <a href="https://www.facebook.com/codeweek.si/">Codeweek.si</a> on Tuesday, July 4, 2017</blockquote></div>
                   
                   <hr class="light">
-                <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Želim sodelovati!</a>
+                <a href="#sodeluj" class="page-scroll btn btn-primary btn-xl sr-button">Sodelujte</a>
             </div>
         </div>
     </div>
 </section>
 
-<section id="sodelovanje">
+<section class="bg-blue" id="sodeluj">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Sodeluj!</h2>
+                <h2 class="section-heading">Kako lahko sodelujete?</h2>
                 <hr class="primary">
             </div>
         </div>
@@ -84,30 +95,34 @@ layout: default
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                    <h3>Prijavi delavnico</h3>
-                    <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    <i class="fa fa-4x fa-map-marker text-default sr-icons"></i>
+                    <h3>Prijavite delavnico</h3>
+                    <p>Iščemo osebe iz mentorskega testa, ki ste oktobra pripravljeni kakšno uro časa nameniti organizaciji delavnice programiranja za najmlajše, in knjižnice, šole ter podjetja, ki bi nam posodili računalniško učilnico.</p>
+                    <a href="#" class="section-link">PRIJAVI</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                    <h3>Začni programirati</h3>
-                    <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    <i class="fa fa-4x fa-graduation-cap text-default sr-icons"></i>
+                    <h3>Začnite programirati</h3>
+                    <p>Obišči delavnico programiranja in se nauči programirati android aplikacijo, upravljati robotke, izdelati termometer ali igrico … Poglej, kaj vse se dogaja v tvoji bližini.</p>
+                    <a href="#" class="section-link">POIŠČI</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                    <h3>Podpri CodeWeek</h3>
-                    <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    <i class="fa fa-4x fa-handshake-o text-default sr-icons"></i>
+                    <h3>Podprite CodeWeek</h3>
+                    <p>CodeWeek je povezovalna platforma za vse, ki si prizadevate k širjenju programerskega znanja in dvigovanju digitalne pismenosti. Smo grass roots iniciativa brez lastnih sredstev, zato hvaležno sprejmemo vašo podporo.</p>
+                    <a href="#" class="section-link">PIŠI</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                    <h3>Made with Love</h3>
-                    <p class="text-muted">You have to make your websites with love these days!</p>
+                    <i class="fa fa-4x fa-heart text-default sr-icons"></i>
+                    <h3>Delite s prijatelji</h3>
+                    <p>Smo <a href="{{site.baseurl}}/sodelavci">ekipa prostovoljcev</a>, ki se zaveda pomena digitalne pismenosti. Vse, kar počnemo, počnemo s srcem. Za vas in za vse nas. Delite navdušenje in znanje s svojimi prijatelji. Zakaj jih ne bi povabili na delavnico?</p>
+                    <a href="https://www.facebook.com/codeweek.si/" target="_blank" class="section-link">DELI</a>
                 </div>
             </div>
         </div>
@@ -121,27 +136,70 @@ layout: default
 <aside class="bg-dark">
     <div class="container text-center">
         <div class="call-to-action">
-            <h2>Free Download at Start Bootstrap!</h2>
-            <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            <h2>Bi, pa nimate ideje?</h2>
+            <p>Organizirajte delavnico Scratcha za otroke od 8. leta naprej. Prenesite si gradivo z učno pripravo, primerno tudi za mentorje, ki še ne znate programirati.</p>
+            <a href="https://drive.google.com/file/d/0B_RI6J8gJoLEc2NkQ1hnQnBuN0E/view" class="btn btn-default btn-xl sr-button">PRENESI</a>
         </div>
     </div>
 </aside>
 
-<section id="contact">
+<section id="kontakt">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <h2 class="section-heading">Oglasite se nam!</h2>
                 <hr class="primary">
-                <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                <p>Z vprašanji in idejami se oglasite na info@codeweek.si ali nam pišite na Facebooku</p>
             </div>
             <div class="col-lg-4 col-lg-offset-2 text-center">
-                <i class="fa fa-phone fa-3x sr-contact"></i>
-                <p>123-456-6789</p>
+                <a href="mailto:info@codeweek.si">
+                <i class="fa fa-envelope fa-3x sr-icons sr-contact text-primary"></i>
+                <p>info@codeweek.si</p>
+                </a>
             </div>
             <div class="col-lg-4 text-center">
-                <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                <a href="https://www.facebook.com/codeweek.si/" target="_blank">
+                    <i class="fa fa-facebook-official fa-3x sr-icons text-primary"></i>
+                    <p>codeweek.si</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-primary" id="uspehi">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">CodeWeek 2016 v številkah</h2>
+                <hr class="primary">
+                <p>Ko številke dejansko povedo več kot 1000 besed. Naj bo letošnji še uspešnejši!</p>
+                <div class="row">
+                      <div class="col-md-3" data-animate="bounceIn">
+                        <i class="fa fa-globe fa-2x sr-icons"></i>
+                        <div class="counter counter-lined"><span data-from="1" data-to="50" data-refresh-interval="5" data-speed="2000">50</span></div>
+                        <h5>Sodelujočih<br> držav</h5>
+                      </div>
+
+                      <div class="col-md-3" data-animate="bounceIn" data-delay="200">
+                        <i class="fa fa-trophy fa-2x sr-icons"></i>
+                        <div class="counter counter-lined"><span data-from="412" data-to="692" data-refresh-interval="10" data-speed="2500">692</span></div>
+                        <h5>Dobitnikov<br> CodeWeek4All</h5>
+                      </div>
+
+                      <div class="col-md-3" data-animate="bounceIn" data-delay="400">
+                        <i class="fa fa-calendar fa-2x sr-icons"></i>
+                        <div class="counter counter-lined"><span data-from="20567" data-to="23043" data-refresh-interval="100" data-speed="2500">23043</span></div>
+                        <h5>Delavnic<br> programiranja</h5>
+                      </div>
+
+                      <div class="col-md-3" data-animate="bounceIn" data-delay="600">
+                        <i class="fa fa-users fa-2x sr-icons"></i>
+                        <div class="counter counter-lined"><span data-from="570000" data-to="95000" data-refresh-interval="100" data-speed="3000">968537</span>+</div>
+                        <h5>Aktivnih<br> udeležencev</h5>
+                      </div>
+                </div>
+                        
             </div>
         </div>
     </div>
