@@ -11,7 +11,7 @@ $fa-font-path: "../fonts/font-awesome";
 ;
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans|Libre+Baskerville:400,700);
 @import "../css/magnific-popup";
 
 
@@ -75,4 +75,31 @@ $fa-font-path: "../fonts/font-awesome";
 	margin-bottom: 8px;
 }
 
+/* -------------------------------*/
+/* HOME */
 
+p {
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+#final-countdown {
+	padding: 50px 0 20px 0;
+}
+
+.home-intro {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.home-cta {
+	margin: 50px 0 10px 0;
+}
+
+.home-more-info {
+	margin: 50px 0 10px 0;
+}
+
+#portfolio .section-heading {
+	margin-top: 50px;
+}
