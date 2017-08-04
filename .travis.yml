@@ -11,18 +11,13 @@ install:
 
 before_script:
   - npm install -g gulp
-  #- gem install bundler
-  #- bundle install
+  - gem install bundler
+  - bundle install
 
-script: 
-- gulp
+script:
 - bundle exec jekyll build
-- bundle exec rake site:deploy --quiet
-
-
-#script:
-#- bundle exec jekyll build
-#- gulp
+- gulp
+#- ./_scripts/deploy.sh
 
 branches:
   only:
@@ -30,6 +25,18 @@ branches:
 
 env:
   global:
-  - GITHUB_REPO: "codeweeksi/codeweek.si"
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
+
+after_success:
+  - cd _site
+  - git init
+  - git config user.name "Travis CI"
+  - git config user.email "deploy@travis-ci.org"
+  - git remote add upstream "https://$GH_TOKEN@github.com/codeweeksi/codeweek.si"
+  - git fetch upstream
+  - git reset upstream/master
+  - git add -A .
+  - git commit -m "[Build] ${TRAVIS_COMMIT}"
+  - git push -q upstream HEAD:master
+  
