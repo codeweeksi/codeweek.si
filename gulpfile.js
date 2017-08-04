@@ -1,5 +1,5 @@
 var gulp =  require('gulp'),
-  deporder = require('gulp-deporder'),
+  //deporder = require('gulp-deporder'),
   concat = require('gulp-concat'),
   uglify = require('gulp-uglify'),
   pump = require('pump'),
@@ -28,7 +28,7 @@ gulp.task('scripts', function (cb) {
         folder.src + 'lib/scrollreveal/*.js',
         folder.src + 'js/**/*.js'
         ]),
-      deporder(),
+      //deporder(),
       concat('scripts.js'),
       uglify(),
       rename(function (path) {
