@@ -15,7 +15,7 @@ before_script:
 script:
 - bundle exec jekyll build
 - gulp
-- ./_script/deploy.sh
+- ./_scripts/deploy.sh
 
 branches:
   only:
