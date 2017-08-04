@@ -11,7 +11,7 @@ var gulp =  require('gulp'),
   // folders
   folder = {
     src: '_src/',
-    dest: 'assets/'
+    dest: '_site/assets/'
   };
 
 // Scripts
