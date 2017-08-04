@@ -45,7 +45,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - "*.sh"
-  - README.md
   - gulpfile.js
   - package.json
   - deploy
+  - vendor
