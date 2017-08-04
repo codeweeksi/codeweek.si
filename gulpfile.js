@@ -81,7 +81,7 @@ gulp.task('fonts', function() {
 // Clean
 gulp.task('clean', function() {
     return del([
-      'assets/css/**/*', 'assets/js/**/*'
+      '_site/assets/css/**/*', '_site/assets/js/**/*'
       ]);
 });
 

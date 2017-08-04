@@ -11,7 +11,7 @@ gems:
   - jekyll-redirect-from
 
 # GitHub
-username:             Mateja
+username:             Travis
 repo:                 codeweek.si
 branch:               source
 
