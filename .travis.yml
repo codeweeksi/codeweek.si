@@ -10,12 +10,12 @@ install:
 - bundle install
 
 before_script:
-  - npm install -g gulp
   - gem install bundler
   - bundle install
 
 script:
 - bundle exec jekyll build
+- npm install -g gulp
 - gulp
 #- ./_scripts/deploy.sh
 
