@@ -16,7 +16,7 @@ GH_USERMAIL="deploy@travis-ci.org"
 function doCompile {
   jekyll build
   # this is a CNAME record for the subdomain, you might not need this. So comment it out
-  echo "blog.weyts.xyz" > _site/CNAME
+  echo "codeweek.si" > _site/CNAME
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
@@ -27,7 +27,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
 fi
 
 # Save some useful information
-REPO=`git config remote.origin.url`
+REPO=`git config https://github.com/codeweeksi/codeweek.si.git`
 SHA=`git rev-parse --verify HEAD`
 
 # Clone the existing gh-pages for this repo into _site/
