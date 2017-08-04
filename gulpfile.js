@@ -65,7 +65,7 @@ gulp.task('sass', function(cb) {
 gulp.task('images', function() {
   var out = folder.dest + 'img/';
   
-  return gulp.src(folder.src + 'img/**/*')
+  return gulp.src([folder.src + 'img/**/*', folder.src + 'img/*'])
         .pipe(gulp.dest(out));
 });
 
