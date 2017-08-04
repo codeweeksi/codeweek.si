@@ -6,16 +6,23 @@ node_js:
 before_install:
   - rvm install 2.2.3
 
+install:
+- bundle install
+
 before_script:
   - npm install -g gulp
-  - gem install bundler
-  - bundle install
+  #- gem install bundler
+  #- bundle install
 
-
-script:
-- bundle exec jekyll build
+script: 
 - gulp
-- ./_scripts/deploy.sh
+- bundle exec jekyll build
+- bundle exec rake site:deploy --quiet
+
+
+#script:
+#- bundle exec jekyll build
+#- gulp
 
 branches:
   only:
@@ -23,6 +30,6 @@ branches:
 
 env:
   global:
-#  - GITHUB_REPO: "codeweeksi/codeweek.si"
+  - GITHUB_REPO: "codeweeksi/codeweek.si"
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
