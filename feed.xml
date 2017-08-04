@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Europe Code Week</title>
+		<description>A week to celebrate coding in Europe - Local site of Slovenia</description>
+		<link>http://codeweek.si</link>
+		<atom:link href="http://codeweek.si/feed.xml" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>
