@@ -1,36 +1,64 @@
-#!/bin/bash
+#!/bin/bash -e
+# deploy script for a jekyll blog
+# heavily based on: https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
+# this script pushes a post-build directory to a different branch, this is useful for deploying
+# to a gh-pages branch
 
-# Enable error reporting to the console.
-set -e
+# set your build information here, the script will take care of anything else
+SOURCE_BRANCH="source"
+TARGET_BRANCH="master"
+DIRECTORY="_site"
+GH_REF="github.com/codeweeksi/codeweek.si"
+GH_USERNAME="Travic CI"
+GH_USERMAIL="deploy@travis-ci.org"
 
-# Install bundles if needed.
-bundle check || bundle install
+# set your build commands here
+function doCompile {
+  jekyll build
+  # this is a CNAME record for the subdomain, you might not need this. So comment it out
+  echo "blog.weyts.xyz" > _site/CNAME
+}
 
-# NPM install if needed.
-. $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1
-npm install
+# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
+if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+    echo "Skipping deploy; just doing a build."
+    doCompile
+    exit 0
+fi
 
-# Build the site.
-gulp
+# Save some useful information
+REPO=`git config remote.origin.url`
+SHA=`git rev-parse --verify HEAD`
 
-# Checkout `master` and remove everything.
-git clone https://${GH_TOKEN}@github.com/codeweeksi/codeweek.si.git ../codeweeksi.si.master
-cd ../codeweeksi.si.master
-git checkout master
-#rm -rf *
+# Clone the existing gh-pages for this repo into _site/
+# Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deploy)
+git clone $REPO $DIRECTORY
+cd $DIRECTORY
+git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+cd ..
 
-# Copy generated HTML site from source branch in original repository.
-# Now the `master` branch will contain only the contents of the _site directory.
-#cp -R ../codeweeksi.github.io/_site/* .
+# Clean out existing contents
+rm -rf $DIRECTORY/**/* || exit 0
 
-## Make sure we have the updated .travis.yml file so tests won't run on master.
-#cp ../codeweeksi.github.io/.travis.yml .
-#git config user.email ${GH_EMAIL}
-#git config user.name "Mateja Verlic"
+# Run our compile script
+doCompile
 
-# Commit and push generated content to `master` branch.
-#git status
-#git add -A .
-#git status
-#git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-#git push --quiet origin `master` > /dev/null 2>&1
+# Now let's go have some fun with the cloned repo
+cd $DIRECTORY
+git config user.name $GH_USERNAME
+git config user.email $GH_USERMAIL
+
+# Add new files
+git add .
+
+# If there are no changes to the compiled _site (e.g. this is a README update) then just bail.
+if [[ -z `git diff --cached --exit-code` ]]; then
+    echo "No changes to the output on this push; exiting."
+    exit 0
+fi
+
+# Commit the "changes", i.e. the new version.
+git commit -a -m "Deployed to GitHub Pages using Travis-CI: ${SHA}"
+
+# Now that we're all set up, we can push with the token
+git push -f "https://${GH_TOKEN}@${GH_REF}" ${TARGET_BRANCH} > /dev/null 2>&1
