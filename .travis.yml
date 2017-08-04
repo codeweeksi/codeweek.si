@@ -15,6 +15,7 @@ before_script:
 script:
 - bundle exec jekyll build
 - gulp
+- bundle exec rake site:deploy --quiet
 
 env:
   global:

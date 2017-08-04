@@ -10,6 +10,10 @@ highlighter: rouge
 gems: 
   - jekyll-redirect-from
 
+# GitHub
+username:             Mateja
+repo:                 codeweek.si
+branch:               source
 
 # Revise these settings below every year
 
