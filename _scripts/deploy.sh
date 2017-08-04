@@ -27,7 +27,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
 fi
 
 # Save some useful information
-REPO=`git config https://github.com/codeweeksi/codeweek.si.git`
+REPO=`git config https://$GH_TOKEN@github.com/codeweeksi/codeweek.si.git`
 SHA=`git rev-parse --verify HEAD`
 
 # Clone the existing gh-pages for this repo into _site/
