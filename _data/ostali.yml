@@ -1,19 +1,24 @@
 - name: Alja Isaković
   description: brez nje Tedna programiranja ne bi bilo
   type: past
+  image: assets/img/team/alja.jpg
 
 - name: Gašper Koren
-  description: www gverila in svetovalec 
+  description: www gverila in svetovalec
   type: support
+  image: assets/img/team/gasper.jpg
 
 - name: Matej Korbar
   description: novozelandska izpostava
-  type: support 
+  type: support
+  image: assets/img/team/matej.jpg
 
 - name: Sofija Sion
   description: makedonska izpostava
   type: support
+  image: assets/img/team/sofija.jpg
 
 - name: Tatjana Čeh Naglič
   description: srce ji še vedno bije za nas
   type: support
+  image: assets/img/team/tatjana.jpg

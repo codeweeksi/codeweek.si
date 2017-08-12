@@ -3,28 +3,52 @@ layout: subpage
 title: Sodelavci
 ---
 
-<section>
-  
-<h2>CodeWeek 2017</h2>
-<ul>
-{% for member in site.data.sodelavci %}
-  <li>
-    <a href="#">
-      {{ member.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+<section id="team">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2>CodeWeek 2017</h2>
+          <hr>
+          <div class="row text-center">
+          {% for member in site.data.sodelavci %}
+          
+          {% if site.data.sodelavci % 3 == 0%} 
+          <div class="clearfix visible-md-block"></div>
+          {% endif %}
+          
+            <div class="col-md-4 col-xs-12 member-card">
+            <p>
+               <img class="img-circle" src="{{site.baseurl}}/{{ member.image }}"></img><br>
+                <span class="member-name">{{ member.name }}</span><br>
+                <a href="mailto:{{member.email}}"><span class="member-contact">{{ member.email }}</span></a></p>
+                <p class="member-description">{{ member.description }}</p>
+              &nbsp;
+            </div>
+          {% endfor %}
+          </div>
 
 
-<h2>A blast from the past</h2>
-<ul>
-{% for member in site.data.ostali %}
-  <li>
-    <a href="#">
-      {{ member.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+          <h2>Z nami so tudi</h2>
+          <hr>
+          <div class="row text-center">
+          {% for member in site.data.ostali %}
+          
+          {% if site.data.ostali % 4 == 0%} 
+          <div class="clearfix visible-md-block"></div>
+          {% endif %}
+          
+            <div class="col-md-4 col-xs-6 member-card">
+            <p class="member-name">
+               <img class="img-circle" src="{{site.baseurl}}/{{ member.image }}"></img><br>
+                {{ member.name }}</p>
+            <p class="member-description">
+              {{ member.description }}
+              </p>
+              
+            </div>
+          {% endfor %}
+          </div>
+      </div>
+    </div>
+  </div>
 </section>

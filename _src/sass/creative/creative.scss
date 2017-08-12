@@ -84,7 +84,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: white;
+        color: $theme-primary;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -106,9 +106,9 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: white;
+                color: $gray-darker;
                 &:hover {
-                    color: $gray-darker;
+                    color: $theme-primary;
                 }
             }
             &.active {
@@ -127,7 +127,7 @@ aside {
         background-color: $theme-primary;
         border-color: fade(white, 30%);
         .navbar-header .navbar-brand {
-            color: fade(white, 70%);
+            color: white;//fade(white, 70%);
             &:hover,
             &:focus {
                 color: $gray-darker;
@@ -135,7 +135,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(white, 70%);
+            color: white;
             &:hover {
                 color: $gray-darker;
             }

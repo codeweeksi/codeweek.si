@@ -102,3 +102,26 @@ a .section-link{
 	font-weight: bold;
 	font-size:14px;
 }
+
+
+/*****************/
+/* SUBPAGE */
+/*****************/
+#team img {
+	width: 100px;
+	height: 100px;
+}
+
+#team ul li {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+.member-name {
+	font-weight: 700;
+}
+
+.member-card {
+	min-height: 250px;
+}
