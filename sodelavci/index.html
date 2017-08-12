@@ -11,11 +11,6 @@ title: Sodelavci
           <hr>
           <div class="row text-center">
           {% for member in site.data.sodelavci %}
-          
-          {% if site.data.sodelavci % 3 == 0%} 
-          <div class="clearfix visible-md-block"></div>
-          {% endif %}
-          
             <div class="col-md-4 col-xs-12 member-card">
             <p>
                <img class="img-circle" src="{{site.baseurl}}/{{ member.image }}"></img><br>
@@ -32,19 +27,11 @@ title: Sodelavci
           <hr>
           <div class="row text-center">
           {% for member in site.data.ostali %}
-          
-          {% if site.data.ostali % 4 == 0%} 
-          <div class="clearfix visible-md-block"></div>
-          {% endif %}
-          
             <div class="col-md-4 col-xs-6 member-card">
             <p class="member-name">
                <img class="img-circle" src="{{site.baseurl}}/{{ member.image }}"></img><br>
                 {{ member.name }}</p>
-            <p class="member-description">
-              {{ member.description }}
-              </p>
-              
+            <p class="member-description">{{ member.description }}</p>
             </div>
           {% endfor %}
           </div>

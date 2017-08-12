@@ -38,6 +38,9 @@ url: http://codeweek.si
 
 collections:
   - featured_events
+  
+keep_files:
+  - assets
 
 exclude:
   - lib
