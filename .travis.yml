@@ -17,8 +17,8 @@ before_script:
   - npm install 
 
 script:
-- bundle exec jekyll build
 - gulp
+- bundle exec jekyll build
 #- ./_scripts/deploy.sh
 
 branches:
