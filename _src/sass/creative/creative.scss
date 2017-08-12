@@ -84,7 +84,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: white;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -106,9 +106,9 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: $gray-darker;
+                color: white;
                 &:hover {
-                    color: $theme-primary;
+                    color: $gray-darker;
                 }
             }
             &.active {
@@ -124,20 +124,20 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        background-color: $theme-primary;
         border-color: fade(white, 30%);
         .navbar-header .navbar-brand {
             color: fade(white, 70%);
             &:hover,
             &:focus {
-                color: white;
+                color: $gray-darker;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
             color: fade(white, 70%);
             &:hover {
-                color: white;
+                color: $gray-darker;
             }
         }
         &.affix {
@@ -201,7 +201,7 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 58%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
