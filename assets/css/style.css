@@ -8915,14 +8915,12 @@ a .section-link {
 /*****************/
 /* SUBPAGE */
 /*****************/
-#team img {
+.subpage img {
   width: 100px;
   height: 100px; }
 
-#team ul li {
-  list-style-type: none;
-  margin: 0;
-  padding: 20px 0 0 20px; }
+.subpage ul li {
+  padding: 10px 0 0 0; }
 
 .member-name {
   font-weight: 700; }
