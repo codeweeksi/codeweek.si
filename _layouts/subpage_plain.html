@@ -1,0 +1,59 @@
+<!-- Featured events --> 
+{% include header.html %}
+
+<body id="page-top">
+
+   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+       <div class="container-fluid">
+           <!-- Brand and toggle get grouped for better mobile display -->
+           <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+               </button>
+               <a class="navbar-brand page-scroll" href="{{site.url}}">CodeWeek 2017</a>
+           </div>
+
+           <!-- Collect the nav links, forms, and other content for toggling -->
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                   <li>
+                       <a class="page-scroll" href="{{ site.url }}#codeweek">Programiranje</a>
+                   </li>
+                   <li>
+                       <a class="page-scroll" href="{{ site.url }}#sodeluj">Sodeluj</a>
+                   </li>
+                   <li>
+                       <a class="page-scroll" href="{{ site.url }}#dogodki">Dogodki</a>
+                   </li>
+                   <li>
+                       <a class="page-scroll" href="{{ site.url }}#kontakt">Kontakt</a>
+                   </li>
+                   <li>
+                       <a class="page-scroll" href="{{ site.url }}#uspehi">Uspehi</a>
+                   </li>
+                   <li>
+                       <a class="page-scroll" href="{{ site.url }}/gradiva">Gradiva</a>
+                   </li>
+               </ul>
+           </div>
+           <!-- /.navbar-collapse -->
+       </div>
+       <!-- /.container-fluid -->
+   </nav>
+   <section id="opismenjevanje">
+     <div class="container subpage">
+       <div class="row">
+           <div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1 col-xs-12 text-center">
+             <h2>{{ page.title }}</h2>
+             <hr>
+             <div class="text-left">
+             {{ content | markdownify}}
+             </div>
+           </div>
+       </div>
+   </div>
+
+    <script src="{{ site.baseurl }}/assets/js/scripts.min.js"></script>
+
+</body>
+</html>
