@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Vaša delavnica ;)
-image: /assets/img/events/default.jpg
-event_url: http://events.codeweek.eu/
-category: delavnica
+title: Digital literacy for Youth
+image: /assets/img/events/featured_event_literacy.jpg
+event_url: /opismenjevanje
+category: workshop
 ---
-
-Ne postopajte, organizirajte delavnico. 
+Digital literacy is a must, especially for youth. Learn how to tell fake from real.
