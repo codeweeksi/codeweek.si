@@ -26,15 +26,27 @@ Delavnica, ki traja dve šolski uri, je zasnovana okrog iskanja odgovorov na še
 5. Kdaj sta spletno mesto in aplikacija varna za uporabnike?
 6. Kako lahko preprečujem digitalne prevare in varujem svojo zasebnost?
 
-
-> #### Voditelj delavnic
-> Domen Savič (1981) je univerzitetni diplomirani novinar in direktor zavoda Državljan D, ki deluje na področju informacijske družbe, medijske pismenosti in aktivnega državljanstva. V preteklosti je kot novinar produciral in sooblikoval medijske vsebine v okviru javnega zavoda RTV Slovenija in časopisne hiše Dnevnik, sedaj pa vodi neprofitni zavod Inštitut Državljan D, ki se ukvarja s spodbujanjem informacijske in medijske pismenosti.
-
-
-<div class="text-center">
-<h1>Prošnja za podporo</h1>
 <hr>
+
+
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object logo-small" src="{{ site.baseurl }}/assets/img/partners/DrzavljanD-vizitka.png" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Domen Savič - voditelj delavnic</h4>
+    Domen Savič (1981) je univerzitetni diplomirani novinar in direktor <a href="http://www.drzavljand.si" target="_blank">zavoda Inštitut Državljan D</a>, ki deluje na področju informacijske družbe, medijske pismenosti in aktivnega državljanstva. V preteklosti je kot novinar produciral in sooblikoval medijske vsebine v okviru javnega zavoda RTV Slovenija in časopisne hiše Dnevnik, sedaj pa vodi neprofitni zavod Inštitut Državljan D, ki se ukvarja s spodbujanjem informacijske in medijske pismenosti.
+  </div>
 </div>
-V kolikor tudi vi menite, da je digitalna pismenost mladih pomembna, in želite šolarjem pomagati pri pridobivanju digitalnih veščin, vas prosimo, da po svoji presoji in zmožnostih podprete izvedbo delavnic. 
-Za več informacij in vse odgovore smo dosegljivi na [info@codeweek.si](mailto:info@codeweek.si).
+
+
+<div class="call-to-action bg-primary">
+	<h2>Prošnja za podporo</h2>
+	<p>
+	V kolikor tudi vi menite, da je digitalna pismenost mladih pomembna, in želite šolarjem pomagati pri pridobivanju digitalnih veščin, vas prosimo, da po svoji presoji in zmožnostih podprete izvedbo delavnic. 
+	Za več informacij in vse odgovore smo dosegljivi na <a href="mailto:info@codeweek.si">info@codeweek.si</a>.
+	</p>
+</div>
 
