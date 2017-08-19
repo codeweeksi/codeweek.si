@@ -8927,3 +8927,26 @@ a .section-link {
 
 .member-card {
   min-height: 250px; }
+
+.author .author-description {
+  margin-left: 30px;
+  font-size: 11px; }
+
+.subpage-plain h3 {
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+.subpage-plain li {
+  font-size: 16px;
+  line-height: 1.5; }
+
+.subpage-plain .call-to-action {
+  margin: 50px 0 50px 0;
+  padding: 10px; }
+  .subpage-plain .call-to-action a, .subpage-plain .call-to-action a:hover, .subpage-plain .call-to-action a:visited {
+    color: #fff;
+    text-decoration: underline; }
+
+.logo-small {
+  width: 100px;
+  height: 100px; }
