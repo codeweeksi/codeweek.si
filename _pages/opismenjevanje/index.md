@@ -1,6 +1,7 @@
 ---
 layout: subpage_plain
 title: Digitalno opismenjevanje mladih
+permalink: /opismenjevanje/
 ---
 Digitalne veščine so kot abeceda sodobne družbe. Tako kot smo se nekoč učili brati in pisati črke, zato da lahko prebiramo knjige in pišemo sporočila, se moramo danes naučiti tudi osnov programiranja, računalništva in moramo razumeti, kako deluje internet. Seveda ne zato da bi vsi postali programerji ali inženirji - tako kot tudi nismo vsi, ki znamo brati in pisati, postali pisatelji. Nabiranje digitalnih veščin, kot so delovanje pametnih telefonov, varna raba interneta ali programiranje, je ključno za opolnomočenje posameznikov, ki živimo v digitalni družbi. Digitalne veščine potrebujemo npr. pri branju novic (_fake news_!), učenju, sporazumevanju, raziskovanju, umetniškem ustvarjanju, razvoju posla v vseh gospodarskih panogah in snovanju tehnoloških inovacij. 
 
