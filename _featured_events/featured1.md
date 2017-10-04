@@ -1,9 +1,9 @@
 ---
 layout: page
-title: HackElect
-image: /assets/img/events/hackelect.jpg
-event_url: http://events.codeweek.eu/view/36907/hackelect/
-category: hackaton
+title: Kaj imajo računalniki s kemijskimi poskusi?
+image: /assets/img/events/kemijski_poskusi.jpg
+event_url: http://events.codeweek.eu/view/139540/kaj-imajo-racunalniki-s-kemijskimi-poskusi/
+category: delavnica
 ---
 
-International Hackathon »HackElect« related to Power Engineering and Smart Grids, will be held in Ljubljana, Slovenia.
+Marsikaj! Z njimi lahko spremljate učinke kemijskih reakcij, na njih izpisujete skrivnostne podatke s senzorjev. Vse to in še več na delavnici!
