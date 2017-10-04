@@ -30,3 +30,25 @@ All sub-pages need a template with proper navigation. You can find the templates
 Permalink should have a `/` as a prefix and suffix like this: `/my-fancy-permalink/`
 
 Also, don't forget to include a link to your subpage somewhere in the main (index) page, so people can actually reach it and find it.
+
+## Adding featured event
+
+Featured events should be added to `_featured_events` folder. Use one markdown file per event, e.g. `featured7.md`. You can name them however you want, but they'll be displayed in alphabetical order. Featured events are automatically included in the page and the only way to affect the ordering right now is to name them appropriately.
+
+### Featured image
+All images - and featured images for featured events being no exception - are in the `_src/img` folder. Featured images are conveniently put into `events` subfolder, but you can put them elsewhere, as long as you include correct url in the header of the event.
+
+Example:
+
+``` 
+---
+layout: page
+title: Digitalno opismenjevanje mladih
+image: /assets/img/events/featured_event_literacy.jpg
+event_url: /opismenjevanje/
+category: delavnica
+---
+Your short description goes here.
+```
+
+As you can see the event has five pieces of data + description you need to fill in. As a layout use page, but everything else is up to you. All the pieces of data are self explanatory.
