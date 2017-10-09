@@ -18,7 +18,9 @@ Igro sestavlja več etap. V vsaki etapi mora ekipa čimprej priti do lokacije, k
 
 
 ## Demo video
-KMALU: Oglej si video in sodeluj v interaktivni predstavitvi Lova na kodo. V videu avtorji igre tečejo namesto tebe, ko bo šlo zares pa se bo treba zanesti na lastne noge! :)
+Oglej si video in sodeluj v interaktivni predstavitvi Lova na kodo. V videu avtorji igre tečejo namesto tebe, ko bo šlo zares pa se bo treba zanesti na lastne noge! :)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8tu0XYLRqaM" frameborder="0" allowfullscreen></iframe>
 
 
 <hr>
