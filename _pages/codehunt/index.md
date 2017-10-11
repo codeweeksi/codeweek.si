@@ -10,7 +10,7 @@ Uporniki iz plemena **Lovcev na kodo** so sovražniku uspeli izmakniti načrte z
 
 
 ## Kako poteka igra?
-Igra Lov na kodo je brezplačna in poteka na prostem, na šolskem dvorišču, v parku ali na športnem igrišču … Za igranje potrebuješ pametni telefon, aplikacijo Telegram in še aplikacijo za skeniranje QR kod.
+Igra Lov na kodo je brezplačna in poteka na prostem, na šolskem dvorišču, v parku ali na športnem igrišču … Za igranje potrebuješ **pametni telefon**, aplikacijo **Telegram** in še aplikacijo za **skeniranje QR kod**.
 
 Igro sestavlja več etap. V vsaki etapi mora ekipa čimprej priti do lokacije, kjer je skrita QR koda. Ko člani ekipe kodo najdejo, jo skenirajo in pri njej naredijo ekipni selfi - nato prejmejo programersko uganko. Šele ko na uganko pravilno odgovorijo, prejmejo koordinate naslednje lokacije, s čimer začnejo novo etapo igre.
 
@@ -36,8 +36,8 @@ Oglej si video in sodeluj v interaktivni predstavitvi Lova na kodo. V videu avto
 * Zmaga najhitrejša ekipa, ki bo opravila vse etape: v pravem zaporedju našla vse skrite QR kode in pravilno rešila vse uganke.
 
 ## Organizirajte svoj Lov na kodo
-KMALU bodo na voljo navodila, kako Lov na kodo organizirate sami, v vašem kraju, v parku, gozdu ali na šolskem dvorišču. 
-Do takrat pa se lahko [prijavite na premierno izvedbo igrice v ljubljanskem parku Tivoli] (http://events.codeweek.eu/view/142624/lov-na-kodo/ "Prijava - Lov na kodo").
+KMALU bodo na voljo navodila, kako igro organizirate sami, v vašem kraju, v parku, gozdu ali na šolskem dvorišču. 
+Do takrat pa se lahko <a href="http://events.codeweek.eu/view/142624/lov-na-kodo/" target="_blank">prijavite na premierno izvedbo Lova na kodo v ljubljanskem parku Tivoli</a>.
 
 <hr>
 
