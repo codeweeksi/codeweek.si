@@ -6,9 +6,7 @@ permalink: /lov-na-kodo/
 
 Smo v času strašne vojne, ki lahko uniči svet.
 
-Uporniki iz plemena **Lovcev na kodo** so sovražniku uspeli izmakniti načrte za izdelavo najmočnejšega orožja, imenovanega **Črni bot**. 
-
-Zlovešč črni bot grozi, da bo s svojo močjo uničil celoten planet. To pa mu lahko preprečijo le Lovci na kodo. A le, če bodo pravočasno rešili vse programerske uganke!
+Uporniki iz plemena **Lovcev na kodo** so sovražniku uspeli izmakniti načrte za izdelavo najmočnejšega orožja, imenovanega **Črni bot**. Zlovešči bot grozi, da bo s svojo močjo uničil celoten planet. To pa mu lahko preprečijo samo Lovci na kodo. A le, če bodo pravočasno rešili vse programerske uganke!
 
 
 ## Kako poteka igra?
@@ -22,6 +20,20 @@ Oglej si video in sodeluj v interaktivni predstavitvi Lova na kodo. V videu avto
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8tu0XYLRqaM" frameborder="0" allowfullscreen></iframe>
 
+## Navodila za igralce
+* Lov na kodo je ekipna igra, ekipo sestavljata najmanj 2 člana.
+* Vsaka ekipa potrebuje en pametni telefon, na katerem naj bosta nameščeni 2 aplikaciji: Telegram in poljubna aplikacija za skeniranje QR kod.
+* Organizator igre ekipam posreduje navodila za prijavo s QR kodo ali povezavo za registracijo.
+* Ob registraciji si mora ekipa izbrati ime, vpisati število članov, naložiti svojo sliko (avatar ekipe) in rešiti uganko za ogrevanje.
+* Po registraciji bodo ekipe obveščene o startni lokaciji, kjer se ob uri začetka igre zberejo vsi tekmovalci.
+* Igro običajno sestavlja 10 etap: 
+ 1. Na koncu vsake etape je skrita QR koda, ki jo morate poiskati in skenirati, 
+ 2. zatem narediti ekipni selfi in 
+ 3. rešiti uganko.
+* Šele ko vpišete pravilen odgovor, prejmete koordinate naslednje lokacije, s čimer se začne nova etapa igre. 
+(Če odgovorite napačno, boste morali počakati 1 minuto, preden boste lahko ponovno odgovarjali.)
+* Igra se zaključi, ko prispete na cilj zadnje etape in rešite še zadnjo, najtežjo uganko.
+* Zmaga najhitrejša ekipa, ki bo opravila vse etape: v pravem zaporedju našla vse skrite QR kode in pravilno rešila vse uganke.
 
 <hr>
 
