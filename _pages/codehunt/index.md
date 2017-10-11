@@ -35,6 +35,10 @@ Oglej si video in sodeluj v interaktivni predstavitvi Lova na kodo. V videu avto
 * Igra se zaključi, ko prispete na cilj zadnje etape in rešite še zadnjo, najtežjo uganko.
 * Zmaga najhitrejša ekipa, ki bo opravila vse etape: v pravem zaporedju našla vse skrite QR kode in pravilno rešila vse uganke.
 
+## Organizirajte svoj Lov na kodo
+KMALU bodo na voljo navodila, kako Lov na kodo organizirate sami, v vašem kraju, v parku, gozdu ali na šolskem dvorišču. 
+Do takrat pa se lahko [prijavite na premierno izvedbo igrice v ljubljanskem parku Tivoli] (http://events.codeweek.eu/view/142624/lov-na-kodo/ "Prijava - Lov na kodo").
+
 <hr>
 
 <div class="media">
