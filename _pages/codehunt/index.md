@@ -37,7 +37,7 @@ Oglej si video in sodeluj v interaktivni predstavitvi Lova na kodo. V videu avto
 
 ## Organizirajte svoj Lov na kodo
 Igro Lov na kodo lahko organizirate sami - v vašem kraju, v parku, gozdu ali na šolskem dvorišču. Sledite
-<a href="https://drive.google.com/open?id=0B_RI6J8gJoLEQ3FYczJoYmxSN2M" target="_blank">navodilom v slovenščini</a> in ne pozabite vašega Lova na kodo vpisati na <a href="events.codeweek.eu" target="_blank">Codeweekov zemljevid</a>.
+<a href="https://drive.google.com/open?id=0B_RI6J8gJoLEQ3FYczJoYmxSN2M" target="_blank">navodilom v slovenščini</a> in ne pozabite vašega Lova na kodo vpisati na <a href="http://events.codeweek.eu" target="_blank">Codeweekov zemljevid</a>.
 
 <hr>
 
