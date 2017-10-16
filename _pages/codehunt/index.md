@@ -36,8 +36,8 @@ Oglej si video in sodeluj v interaktivni predstavitvi Lova na kodo. V videu avto
 * Zmaga najhitrejša ekipa, ki bo opravila vse etape: v pravem zaporedju našla vse skrite QR kode in pravilno rešila vse uganke.
 
 ## Organizirajte svoj Lov na kodo
-KMALU bodo na voljo navodila, kako igro organizirate sami, v vašem kraju, v parku, gozdu ali na šolskem dvorišču. 
-Do takrat pa se lahko <a href="http://events.codeweek.eu/view/142624/lov-na-kodo/" target="_blank">prijavite na premierno izvedbo Lova na kodo v ljubljanskem parku Tivoli</a>.
+Igro Lov na kodo lahko organizirate sami - v vašem kraju, v parku, gozdu ali na šolskem dvorišču. Sledite
+<a href="https://drive.google.com/open?id=0B_RI6J8gJoLEQ3FYczJoYmxSN2M" target="_blank">navodilom v slovenščini</a> in ne pozabite vašega Lova na kodo vpisati na <a href="events.codeweek.eu" target="_blank">Codeweekov zemljevid</a>.
 
 <hr>
 
