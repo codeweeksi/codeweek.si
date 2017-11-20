@@ -38,7 +38,7 @@ Delavnica, ki traja dve šolski uri, je zasnovana okrog iskanja odgovorov na še
   </div>
   <div class="media-body">
     <h4 class="media-heading">Domen Savič - voditelj delavnic</h4>
-    Domen Savič (1981) je univerzitetni diplomirani novinar, ki deluje na področju informacijske družbe, medijske pismenosti in aktivnega državljanstva. V preteklosti je kot novinar produciral in sooblikoval medijske vsebine v okviru javnega zavoda RTV Slovenija in časopisne hiše Dnevnik, sedaj pa se kot sodelavec <a href="https://www.register.si/" target="_blank">RegisterSI</a>ukvarja s spodbujanjem informacijske in medijske pismenosti.
+    Domen Savič (1981) je univerzitetni diplomirani novinar, ki deluje na področju informacijske družbe, medijske pismenosti in aktivnega državljanstva. V preteklosti je kot novinar produciral in sooblikoval medijske vsebine v okviru javnega zavoda RTV Slovenija in časopisne hiše Dnevnik, sedaj pa se kot sodelavec <a href="https://www.register.si/" target="_blank">RegisterSI</a> ukvarja s spodbujanjem informacijske in medijske pismenosti.
   </div>
 </div>
 
