@@ -37,7 +37,7 @@ Delavnica, ki traja dve šolski uri, je zasnovana okrog iskanja odgovorov na še
     </a>
   </div>
   <div class="media-body">
-    <h4 class="media-heading">RegisterSI - soizvajalec delavnic</h4>
+    <h4 class="media-heading">Soizvajalec</h4>
     Pri izvedbi delavnic v okviru projekta Digitalno opismenjevanje Slovenije nam pomaga <a href="https://www.register.si/" target="_blank">RegisterSI</a>. 
   </div>
 </div>
@@ -52,7 +52,7 @@ Delavnica, ki traja dve šolski uri, je zasnovana okrog iskanja odgovorov na še
     </a>
   </div>
   <div class="media-body">
-    <h4 class="media-heading">Infinum - donator</h4>
+    <h4 class="media-heading">Donator</h4>
     Podjetje <a href="https://infinum.co/" target="_blank">Infinum</a> je specialist za razvoj mobilnih aplikacij. Njihovo ekipo v Sloveniji, ZDA in na Hrvaškem sestavlja prek 100 digitalno pismenih ljudi; verjamemo, da bo v prihodnosti med njimi tudi kak udeleženec Code Weeka.
   </div>
 </div>
