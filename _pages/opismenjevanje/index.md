@@ -33,7 +33,7 @@ Delavnica, ki traja dve šolski uri, je zasnovana okrog iskanja odgovorov na še
 <div class="media">
   <div class="media-left">
     <a href="#">
-      <img class="media-object logo-small" src="{{ site.baseurl }}/assets/img/partners/DrzavljanD-vizitka.png" alt="...">
+      <img class="media-object logo-small" src="{{ site.baseurl }}/assets/img/partners/RegisterSI_logotip_barvni.png" alt="...">
     </a>
   </div>
   <div class="media-body">
