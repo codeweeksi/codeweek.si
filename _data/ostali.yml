@@ -2,6 +2,11 @@
   description: brez nje Tedna programiranja ne bi bilo
   type: past
   image: assets/img/team/alja.jpg
+  
+  - name: Vita Vlašič
+  description: So-ambasadorka, stiki z mentorji in organizatorji dogodkov
+  type: support
+  image: assets/img/team/vita.jpg
 
 - name: Gašper Koren
   description: www gverila in svetovalec
@@ -10,15 +15,15 @@
 
 - name: Matej Korbar
   description: novozelandska izpostava
-  type: support
+  type: past
   image: assets/img/team/matej.jpg
 
 - name: Sofija Sion
   description: makedonska izpostava
-  type: support
+  type: past
   image: assets/img/team/sofija.jpg
 
 - name: Tatjana Čeh Naglič
   description: srce ji še vedno bije za nas
-  type: support
+  type: past
   image: assets/img/team/tatjana.jpg
