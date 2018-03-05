@@ -7,6 +7,11 @@
   description: vedno pripravljena pomagati
   type: support
   image: assets/img/team/vita.jpg
+  
+  - name: Sofija Sion
+  description: makedonska izpostava
+  type: past
+  image: assets/img/team/sofija.jpg
 
 - name: Gašper Koren
   description: gverilec in svetovalec
@@ -17,11 +22,6 @@
   description: novozelandska izpostava
   type: past
   image: assets/img/team/matej.jpg
-
-- name: Sofija Sion
-  description: makedonska izpostava
-  type: past
-  image: assets/img/team/sofija.jpg
 
 - name: Tatjana Čeh Naglič
   description: srce ji še vedno bije za nas
