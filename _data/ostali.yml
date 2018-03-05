@@ -4,12 +4,12 @@
   image: assets/img/team/alja.jpg
   
   - name: Vita Vlašič
-  description: So-ambasadorka, stiki z mentorji in organizatorji dogodkov
+  description: vedno pripravljena pomagati
   type: support
   image: assets/img/team/vita.jpg
 
 - name: Gašper Koren
-  description: www gverila in svetovalec
+  description: gverilec in svetovalec
   type: support
   image: assets/img/team/gasper.jpg
 
