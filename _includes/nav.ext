@@ -1,7 +1,7 @@
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 <nav>
   <ul>
-  	<li><a {% if location == 'dogodki' %}class="active" {% endif %}href="http://events.codeweek.eu/search/?country_code=SI" target="_blank">Dogodki 2017</a></li>
+  	<li><a {% if location == 'dogodki' %}class="active" {% endif %}href="http://events.codeweek.eu/search/?country_code=SI" target="_blank">Dogodki 2018</a></li>
     <li><a {% if location == 'gradiva' %}class="active" {% endif %}href="/gradiva/">Gradiva</a></li>
     <li><a {% if location == 'novice' %}class="active" {% endif %}href="/novice/">Novice</a></li>
     <!-- <li><a {% if location == 'zakaj_programiranje' %}class="active" {% endif %}href="/zakaj_programiranje/">Zakaj programiranje?</a></li> -->
