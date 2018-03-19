@@ -21,8 +21,8 @@ defaults:
   - scope:
       path: "" # all files in the project
     values:
-      event_dates: "7.‐22. oktober 2017"
-      event_year: "2017"
+      event_dates: "7.‐22. oktober 2018"
+      event_year: "2018"
 
 contact:
     email: katja.osljak@gmail.com
