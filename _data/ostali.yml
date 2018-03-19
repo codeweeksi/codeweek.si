@@ -3,12 +3,12 @@
   type: past
   image: assets/img/team/alja.jpg
   
-  - name: Vita Vlašič
+- name: Vita Vlašič
   description: vedno pripravljena pomagati
   type: support
   image: assets/img/team/vita.jpg
   
-  - name: Sofija Sion
+- name: Sofija Sion
   description: makedonska izpostava
   type: past
   image: assets/img/team/sofija.jpg
