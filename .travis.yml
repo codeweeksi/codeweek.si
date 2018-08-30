@@ -12,8 +12,8 @@ install:
 before_script:
   - gem install bundler
   - bundle install
-  - npm install -g gulp
-  - npm install gulp --save-dev
+  - npm install --global gulp-cli
+  - npm install --save-dev gulp
   - npm install 
 
 script:
