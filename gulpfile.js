@@ -86,6 +86,7 @@ gulp.task('clean', function() {
 });
 
 
-gulp.task('default', ['scripts', 'sass', 'images', 'fonts'], function() {
+gulp.task('default', gulp.series(['scripts', 'sass', 'images', 'fonts'], function(done) {
   console.log("Default task");
-});
+  done();
+}));
