@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Lov na kodo
-image: /assets/img/events/codehunt.jpg
-event_url: /lov-na-kodo/
-category: igra
+title: Učna ura programiranja s Scratchem
+image: /assets/img/events/default.jpg
+event_url: /gradiva/ucni_nacrt
+category: Organizirajte delavnico!
 ---
-Računalniška igra, kot je še niste igrali. Potrebujete telefon, hitre noge in trezno glavo. Vsaka rešena uganka vas bo pripeljala korak bližje k temu, da rešite svet!
+Za vas smo pripravili kratek učni načrt, s pomočjo katerega lahko tudi sami organizirate in izvedete učno uro programiranja s programom Scratch.

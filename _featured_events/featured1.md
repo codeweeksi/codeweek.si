@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Kaj imajo računalniki s kemijskimi poskusi?
-image: /assets/img/events/kemijski_poskusi.jpg
-event_url: http://events.codeweek.eu/view/139540/kaj-imajo-racunalniki-s-kemijskimi-poskusi/
-category: delavnica
+title: Otvoritev Code Weeka
+image: /assets/img/events/fireworks.jpg
+event_url: 
+category: dogodek
 ---
 
-Marsikaj! Z njimi lahko spremljate učinke kemijskih reakcij, na njih izpisujete skrivnostne podatke s senzorjev. Vse to in še več na delavnici!
+Ne zamudite otvoritve tedna programiranja, ki bo 6. oktobra ob 10. uri na Fakulteti za elektrotehniko v Ljubljani.
