@@ -3,3 +3,9 @@ node_modules/
 .sass-cache/
 Gemfile.lock
 vendor
+
+# Mateja's files
+build_dev.sh
+deploy-mozganostroj.sh
+package-lock.json
+run.sh
