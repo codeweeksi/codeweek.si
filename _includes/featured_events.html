@@ -10,7 +10,7 @@
             {% for event in site.featured_events %}
             <div class="col-lg-4 col-sm-6">
             <a href="{{ event.event_url }}" target="_blank" class="portfolio-box">
-                <img src="{{site.baseurl}}{{ event.image }}" class="img-responsive " alt="">
+                <img src="{{ event.image | relative_url }}" class="img-responsive " alt="">
                 <div class="portfolio-box-caption">
                     <div class="portfolio-box-caption-content">
                         <div class="project-category text-faded">
