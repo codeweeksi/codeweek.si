@@ -21,7 +21,7 @@ defaults:
   - scope:
       path: "" # all files in the project
     values:
-      event_dates: "7.‐22. oktober 2018"
+      event_dates: "6. - 21. oktober 2018"
       event_year: "2018"
 
 contact:
