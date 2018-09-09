@@ -3,6 +3,7 @@ node_modules/
 .sass-cache/
 Gemfile.lock
 vendor
+_site
 
 # Mateja's files
 build_dev.sh
