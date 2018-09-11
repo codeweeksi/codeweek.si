@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Otvoritev Code Weeka
-image: /assets/img/events/fireworks.jpg
+title: Everyone can code and be creative
+image: /assets/imgpartners/googlelogo_color_520x172dp.png
 event_url: 
 category: dogodek
 ---
 
-Ne zamudite otvoritve tedna programiranja, ki bo 6. oktobra ob 10. uri na Fakulteti za elektrotehniko v Ljubljani.
+Dogodek ob otvoritvi Code Weeka podpira tudi Google. Odvijal se bo 6. oktobra v sodelovanju s FabLab mrežo na Fakulteti za elektrotehniko.
