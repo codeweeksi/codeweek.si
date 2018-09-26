@@ -8912,6 +8912,9 @@ a .section-link {
   font-weight: bold;
   font-size: 14px; }
 
+p.intro {
+  font-size: 1.4em; }
+
 /*****************/
 /* SUBPAGE */
 /*****************/
