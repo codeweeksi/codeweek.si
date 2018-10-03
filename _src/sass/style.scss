@@ -138,16 +138,16 @@ p.intro {
 		margin-top: 50px;
 		margin-bottom: 30px;
 	}
-	
+
 	li {
 		font-size: 16px;
 		line-height: 1.5;
 	}
-	
+
 	.call-to-action {
 		margin: 50px 0 50px 0;
 		padding: 10px;
-		
+
 		a, a:hover, a:visited {
 			color: #fff;
 			text-decoration: underline;
@@ -158,4 +158,8 @@ p.intro {
 .logo-small {
 	width: 100px;
 	height: 100px;
+}
+
+img.partner {
+  margin: 10px;
 }
