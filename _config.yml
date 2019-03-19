@@ -7,7 +7,7 @@ highlighter: rouge
 #    sass_dir: _sass
 #    style: :compressed
 
-plugins_dir: 
+plugins_dir:
   - jekyll-redirect-from
 
 # GitHub
@@ -21,8 +21,8 @@ defaults:
   - scope:
       path: "" # all files in the project
     values:
-      event_dates: "6. - 21. oktober 2018"
-      event_year: "2018"
+      event_dates: "5. - 20. oktober 2019"
+      event_year: "2019"
 
 contact:
     email: katja.osljak@gmail.com
@@ -33,16 +33,16 @@ contact:
 country-list: [austria, belgium, bulgaria, croatia, cyprus, czech_republic, denmark, estonia, finland, france, germany, greece, hungary, ireland, italy, kosovo, latvia, lithuania, luxembourg, malta, netherlands, poland, portugal, romania, slovakia, slovenia, spain, sweden, switzerland, united_kingdom]
 
 description: A week to celebrate coding in Europe - Local site of Slovenia
-url: http://codeweek.si
+url: https://codeweek.si
 
 
 collections:
   - featured_events
-  
+
 keep_files:
   - assets
-  
-include: 
+
+include:
   - _pages
 
 exclude:
